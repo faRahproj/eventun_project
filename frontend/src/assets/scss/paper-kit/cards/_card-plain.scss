@@ -1,0 +1,32 @@
+.card-plain {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0;
+
+  .card-body {
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+
+  img {
+      border-radius: $border-radius-extreme;
+  }
+}
+.card-cat:hover {
+  
+  background-color: #FF724F;
+  opacity: 1;
+}
+.cat-text:hover {
+  
+  background-color: #FF724F;
+}
+
+.cat-text-col{
+  text-align: center;
+  color: black;
+}
+
+.Cat-Img{
+  opacity: 0.3;
+}
